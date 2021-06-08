@@ -7,7 +7,7 @@ def home(request):
     return render(request, 'home.html')
 
 def page_book(request):
-    book_list=Bools.objective.all()
+    book_list=Books.objects.all()
     return render(request, 'news.html',{'book_list': book_list})
 
 def add_book(request):
@@ -31,7 +31,7 @@ def delete_book(request, id):
 
 def mark_book(request, id):
     book=Books.objects.get(id=id)
-    books.is_favorite=True
+    book.is_favorite=True
     book.save()
     return redirect(page_book)
 

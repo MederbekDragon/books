@@ -21,9 +21,9 @@
                         {% if book.is_favorite %}
                         <a href="{% url 'unmark-book' book.id %}"><img src="{% static './icons/marked.png' %}"/></a>
                         {% else %}
-                        <a href="{% url 'mark-book' book.id %}"><img src="{% static './icons/unmared.png' %}"/></a>
+                        <a href="{% url 'mark-book' book.id %}"><img src="{% static './icons/unmarked.png' %}"/></a>
                         {% endif %}
-                        <a href="{% url 'delete-book' book.id %}"><img src="{% static './icons/2790131631558965374-128.png' %}"/></a>
+                        <a href="{% url 'delete-book' book.id %}"><img src="{% static './icons/delete.png' %}"/></a>
                         
                     </div>
                 </div>
