@@ -1,0 +1,22 @@
+{% extends 'books.html' %}
+{% load static %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="{% static 'icons/author.jpg' %}" alt="author">
+    <p><i class="fas fa-user-tie"></i>Mederbek Bekboliev</p>
+    <p><i class="fas fa-mobile-alt"></i> <span> +996708617333</span></p>
+    <p><i class="fas fa-envelope-open-text"></i><span>mederbekbit@gmail.com</span></p>
+    <p><i class="fab fa-whatsapp"></i><span> +996999101955</span></p>
+  
+    <p class="but"><a href="{%  url 'home' %}"><button class="btn btn-info">Main page</button></a></p>
+</div>
+{% endblock %}

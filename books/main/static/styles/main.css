@@ -1,0 +1,123 @@
+body{
+  background: #234442;;
+}
+
+aside{
+  float:left;
+  background: #234562;
+  width: 20%;
+  padding: 2,5%;
+  height: 100vh;
+  border-right: 5px solid #4d5;
+}
+
+aside img{
+  width: 180px;
+  float: left;
+}
+
+aside .logo{
+  font-size: 40px;
+  margin-left: 10px;
+  font-weight: bold;
+  position: relative;
+  top: -5px;
+  color: azure;
+}
+
+aside h3{
+  margin-top: 50px;
+  font-size:28px;
+  color: azure;
+}
+
+aside ul li{
+  color: #fff;
+  display: block;
+  margin-top: 20px;
+  transition: transform .6s ease;
+}
+
+aside ul li:hover, asideul a:hover{
+  color: red;
+  text-decoration: none;
+  transform: scale(1.05);
+}
+
+main .form{
+  float: left;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 20px;
+  text-align: center;
+  width: 70%;
+}
+
+.form b{
+  font-size: 26px;
+}
+
+main h1{font-size: 50px;}
+main .form p{
+  margin: 5px auto;
+  color: #fff;
+  font-size: 15px;
+}
+
+.information{
+  margin-left: 500px;
+  padding-top: 40px;
+  border: 2px solid #fff;
+  color: #fff;
+  width: 600px;
+  padding-left: 10px;
+  background-color: black;
+}
+
+.information p{
+  display: block;
+  margin-bottom: 20px;
+}
+
+.info{
+  text-align: center;
+  margin-bottom: 40px;
+  color: #fff;
+  padding-top: 50px;
+}
+
+.information .but{
+  margin-left: 200px;
+}
+
+.info_home{
+  color: lightyellow;
+  padding: 20px;
+  margin-left: 300px;
+}
+
+.information img{
+  float: left;
+  width: 200px;
+  margin-right: 20px;
+}
+
+.successfully{
+  padding-top: 20px;
+  margin-left: 50%;
+}
+
+.successfully img{
+  width: 400px;
+  margin-bottom: 100px;
+}
+
+.successfully h1{
+  font-size: 50px;
+  color: wheat;
+  margin-bottom: 40px;
+}
+
+.successfully .suc{
+  margin-left: 100px;
+}
