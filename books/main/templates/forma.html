@@ -1,6 +1,6 @@
 {% extends 'books.html' %}
 {% load static %}
-{% block title %} Жаңы китеп кошуу {% endblock %}
+{% block title %} Add new book {% endblock %}
 
 {% block content %}
 <main>     
@@ -10,7 +10,7 @@
             {% csrf_token %}
             <p>Book name:</p> <b>{{ form.title }}</b>
             <p>Short description:</p> <b>{{ form.subtitle }}</b>
-            <p>Abot book:</p> {{ form.description }}
+            <p>About book:</p> {{ form.description }}
             <p>Genre:  </p> <b>{{ form.genre }}</b>
             <p>Price:  </p> <b>{{ form.price }}</b>
             <p>Author: </p> <b>{{ form.author }}</b>
