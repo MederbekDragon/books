@@ -1,6 +1,8 @@
 {% extends 'books.html' %}
 {% load static %}
 
+{% block title%} Contact {% endblock %}
+
 {% block content %}
 <h1 class="info">Site author</h1>
 <div class="information">
@@ -9,7 +11,6 @@
     <p><i class="fas fa-mobile-alt"></i> <span> +996708617333</span></p>
     <p><i class="fas fa-envelope-open-text"></i><span>mederbekbit@gmail.com</span></p>
     <p><i class="fab fa-whatsapp"></i><span> +996999101955</span></p>
-  
     <p class="but"><a href="{%  url 'home' %}"><button class="btn btn-info">Main page</button></a></p>
 </div>
 {% endblock %}
