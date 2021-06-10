@@ -3,11 +3,11 @@ body{
 }
 
 aside{
-  float:left;
+  float:top;
   background: #234562;
   width: 20%;
   padding: 2,5%;
-  height: 100vh;
+  height: 100px;
   border-right: 5px solid #4d5;
 }
 
@@ -18,7 +18,7 @@ aside img{
 
 aside .logo{
   font-size: 40px;
-  margin-left: 10px;
+  margin-left: 0px;
   font-weight: bold;
   position: relative;
   top: -5px;
@@ -108,7 +108,7 @@ main .form p{
 }
 
 .successfully img{
-  width: 400px;
+  width: 100px;
   margin-bottom: 100px;
 }
 
